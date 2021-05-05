@@ -32,3 +32,7 @@ sed -i "/class */a String marker=\'\!\/@$%/\"" groovies/*
 #jeśli tylko wypisać
 cat groovies/* | sed "/class */a String marker=\'\!\/@$%/\""
 #We wszystkich plikach w katalogu 'groovies' usuń linijki zawierające frazę 'Help docs'
+#jeśli chcemy faktycznie zamienić
+sed -i "/Help docs:/d" testgr/*
+#jeśli tylko wypisać
+cat testgr/* | sed "/Help docs:/d"
