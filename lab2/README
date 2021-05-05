@@ -1,0 +1,7 @@
+script1.sh - 3.0: Napisać skrypt, który przyjmuje 2 parametry – 2 ścieżki do katalogów.
+script2.sh - +0.5 - Napisać skrypt, który w zadanym katalogu (1. parametr) usunie wszystkie uszkodzone dowiązania symboliczne, a ich nazwy wpisze do pliku (2. parametr), wraz z dzisiejszą datą w formacie ISO 8601.
+script3.sh - +1.0 - Napisać skrypt, który w zadanym katalogu (jako parametr)
+.env - +0.5 Stwórz plik środowiskowy
+
+folder ex2 zawiera przykładowe dane dla skyrptu script2.sh
+file - przykładowy plik wyjściowy dla script2.sh
